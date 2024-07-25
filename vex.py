@@ -7,5 +7,7 @@ is_64bits = sys.maxsize > 2**32
 os.system('clear')
 if is_64bits:
     vex64.menu()
-else:
+elif is_32bits:
     vex32.menu()
+esle:
+    print("unknown bit please try again later...")
