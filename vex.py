@@ -3,6 +3,7 @@ import vex32
 import os
 import sys
 
+is_32bits = sys.maxsize
 is_64bits = sys.maxsize > 2**32
 os.system('clear')
 if is_32bits:
