@@ -4,7 +4,6 @@ import os
 import sys
 
 is_64bits = sys.maxsize > 2**32
-import os, platform, time, sys
 os.system('clear')
 if is_64bits:
     vex64.menu()
