@@ -9,5 +9,5 @@ if is_64bits:
     vex64.menu()
 elif is_32bits:
     vex32.menu()
-esle:
+else:
     print("unknown bit please try again later...")
